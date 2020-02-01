@@ -1,0 +1,9 @@
+@import 'variables';
+
+header {
+  text-align: center;
+  background-color: $white;
+  .logo {
+    height: 64px;
+  }
+}
