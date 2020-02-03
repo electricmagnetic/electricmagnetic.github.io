@@ -8,20 +8,25 @@ const IndexPage = () => (
   <div className="IndexPage">
     <header className="py-5">
       <div className="container">
-        <h1 className="mb-3">
+        <h1 className="mb-4">
           <img src={me} alt="ElectricMagnetic" className="logo" />
         </h1>
-        <p className="mb-0">
-          <a href="https://electricmagnetic.net">Main Website</a>
-        </p>
+        <h2>Open Source Projects</h2>
       </div>
     </header>
     <main className="py-5">
       <div className="container">
-        <h2 className="text-center h4 mb-4">Current projects</h2>
         <GitHub />
       </div>
     </main>
+    <footer className="py-5">
+      <div className="container">
+        <p>
+          &copy; <a href="https://electricmagnetic.net">ElectricMagnetic</a>{' '}
+          {new Date().getFullYear()}
+        </p>
+      </div>
+    </footer>
   </div>
 );
 

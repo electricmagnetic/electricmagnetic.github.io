@@ -1,6 +1,7 @@
 @import 'variables';
 
-header {
+header,
+footer {
   text-align: center;
   background-color: $white;
   .logo {
