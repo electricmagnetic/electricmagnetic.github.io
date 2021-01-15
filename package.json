@@ -4,17 +4,17 @@
   "version": "1.0.0",
   "author": "Electric Magnetic Limited",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.19.10",
-    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-react-helmet": "^3.8.0",
     "gatsby-plugin-sass": "^2.1.27",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-refetch": "^1.0.4"
+    "react-helmet": "^6.1.0",
+    "swr": "^0.4.0"
   },
   "scripts": {
     "build": "gatsby build",
@@ -27,10 +27,10 @@
     "deploy": "gh-pages -d public --branch master"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "husky": "^4.0.7",
     "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
-    "gh-pages": "^1.2.0"
+    "pretty-quick": "^2.0.1"
   },
   "husky": {
     "hooks": {
