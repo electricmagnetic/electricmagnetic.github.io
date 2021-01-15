@@ -1,6 +1,20 @@
-import React, { Component } from 'react';
-import 'isomorphic-fetch';
-import { connect } from 'react-refetch';
+import React from 'react';
+import useSWR from 'swr';
+
+const API_URL = `https://api.github.com/search/repositories?q=user%3Aelectricmagnetic&sort=updated&order=desc`;
+const CACHE_TIME = 24 * 60 * 60 * 1000;
+const fetcher = async url => {
+  const result = await fetch(url);
+
+  if (!result.ok) {
+    const error = new Error('An error occurred while fetching the data.');
+
+    error.info = await result.json();
+    error.status = result.status;
+    throw error;
+  }
+  return result.json();
+};
 
 const Loader = () => (
   <div className="text-center">
@@ -66,19 +80,19 @@ const Repositories = ({ repositories }) => {
   );
 };
 
-class GitHub extends Component {
-  render() {
-    const { gitHubFetch } = this.props;
+const GitHub = () => {
+  const { data, error, isValidating } = useSWR(`${API_URL}`, fetcher, {
+    dedupingInterval: CACHE_TIME,
+    revalidateOnFocus: false,
+  });
 
-    if (gitHubFetch.pending) return <Loader />;
-    else if (gitHubFetch.rejected) return <Error error={gitHubFetch.reason} />;
-    else if (gitHubFetch.fulfilled) return <Repositories repositories={gitHubFetch.value} />;
-    return null;
-  }
-}
+  if (isValidating) {
+    return <Loader />;
+  } else if (error) {
+    return <Error />;
+  } else if (data) {
+    return <Repositories repositories={data} />;
+  } else return null;
+};
 
-export default connect(props => ({
-  gitHubFetch: {
-    url: `https://api.github.com/search/repositories?q=user%3Aelectricmagnetic&sort=updated&order=desc`,
-  },
-}))(GitHub);
+export default GitHub;
