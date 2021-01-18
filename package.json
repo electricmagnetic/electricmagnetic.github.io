@@ -4,12 +4,11 @@
   "version": "1.0.0",
   "author": "Electric Magnetic Limited",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gatsby": "^2.19.10",
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.30.3",
     "gatsby-plugin-react-helmet": "^3.8.0",
-    "gatsby-plugin-sass": "^2.1.27",
+    "gatsby-plugin-sass": "^3.0.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -27,10 +26,11 @@
     "deploy": "gh-pages -d public --branch master"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "husky": "^4.0.7",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1"
+    "gh-pages": "^3.1.0",
+    "husky": "^4.3.8",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "sass": "^1.32.4"
   },
   "husky": {
     "hooks": {

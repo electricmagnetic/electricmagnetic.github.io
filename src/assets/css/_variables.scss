@@ -360,6 +360,7 @@ $table-border-color: $border-color !default;
 
 $table-head-bg: $gray-200 !default;
 $table-head-color: $gray-700 !default;
+$table-th-font-weight: null !default;
 
 $table-dark-color: $white !default;
 $table-dark-bg: $gray-800 !default;
@@ -1125,6 +1126,7 @@ $pre-scrollable-max-height: 340px !default;
 $displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
 $overflows: auto, hidden !default;
 $positions: static, relative, absolute, fixed, sticky !default;
+$user-selects: all, auto, none !default;
 
 // Printing
 

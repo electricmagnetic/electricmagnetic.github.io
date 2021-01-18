@@ -4,12 +4,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        precision: 8,
-      },
-    },
+    `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
