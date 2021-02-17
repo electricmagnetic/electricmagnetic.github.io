@@ -53,7 +53,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/electricmagnetic/electricmagnetic.github.io/edit/master/website/',
+            'https://github.com/electricmagnetic/electricmagnetic.github.io/edit/dev/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
