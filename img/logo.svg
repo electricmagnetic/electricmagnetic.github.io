@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="38.28146mm"
+   height="38.100002mm"
+   viewBox="0 0 38.28146 38.100002"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <ellipse
+     ry="18.493996"
+     rx="18.584724"
+     style="fill:#ffffff;stroke:#1a1a1a;stroke-width:1.11201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="ellipse1420"
+     cx="19.14073"
+     cy="19.050001" />
+  <ellipse
+     ry="18.493996"
+     rx="18.584724"
+     style="fill:none;stroke:#1a1a1a;stroke-width:1.11201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle881"
+     cx="19.14073"
+     cy="19.050001" />
+  <path
+     id="path887"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Major Mono Display';-inkscape-font-specification:'Major Mono Display';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.756833"
+     d="M 20.766625,14.533975 H 6.3954901 L 8.6828991,5.9972469 H 22.396811 l 0.3002,-1.120363 H 7.8627371 L 2.2169931,25.947093 H 17.051266 l 0.300063,-1.11986 H 3.6374181 l 2.457872,-9.172895 H 20.466425 Z" />
+  <path
+     id="path1417"
+     style="fill:#007e9e;fill-opacity:1;stroke:none;stroke-width:1.11201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 32.455531,31.952483 37.122947,14.53391 h -1.120346 l -9.865029,9.475913 -4.81728,-9.475913 h -1.211294 l -5.981546,22.324223 a 18.584724,18.493996 0 0 0 1.050581,0.26045 l 5.491654,-20.49539 4.58215,8.65787 h 1.059883 l 9.090917,-8.50698 -4.431771,16.53904 a 18.584724,18.493996 0 0 0 1.484665,-1.36064 z" />
+  <ellipse
+     cy="19.050001"
+     cx="19.14073"
+     id="ellipse1429"
+     style="fill:none;stroke:#1a1a1a;stroke-width:1.11201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     rx="18.584724"
+     ry="18.493996" />
+</svg>
